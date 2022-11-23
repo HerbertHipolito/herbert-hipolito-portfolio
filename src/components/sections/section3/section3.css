@@ -1,0 +1,79 @@
+#section3{
+    margin-top: 10vh;
+    min-height: 90vh;
+}
+
+#section3-title{
+    font-size: 280%;
+    color:var(--font-color);
+    text-align: center;
+    text-shadow: 0px 0px 5px var(--font-color);
+    margin: 10vh;
+}
+
+#section3-buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+#section3-buttons button{
+    padding: 2vh;
+    font-size: 120%;
+    color: var(--font-color);
+    background-color: #0d0720;
+    border: none;
+    border-left: solid 1px var(--font-color);
+    margin: 1vh 0;
+    box-shadow: 0px 1px 10px #0d0720;
+    width: 15vw;
+}
+
+#section3-data-back-end{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    margin:5vh 5vw;
+    margin-right: 2vw;
+}
+
+#my-projects-back{
+    color: var(--font-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.project-class-back{
+    padding: 2vh;
+    margin: 1vh;
+    max-width: 20vw;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    background-color: #0d0720;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-class-back:hover{
+    background-color: #080415;
+}
+
+.project-text{
+    font-size: 90%;
+}
+
+.project-class-back a{
+    color: var(--font-color);
+    margin-bottom: 1vh;
+}
+
+.project-title{
+    font-size: 180%;
+    margin:2vh 0;
+}
+
+.project-title-cc{
+    font-size: 120%;
+    margin:1vh 0;
+}

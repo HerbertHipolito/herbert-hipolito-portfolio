@@ -1,0 +1,31 @@
+#section4{
+    min-height: 90vh;
+    text-align: center;
+    margin: 10vh;
+}
+
+#section4 h1{
+    color:var(--font-color);
+    margin:15vh;
+    font-size: 220%;
+}
+
+#icons img{
+    max-width: 20vw;
+    max-height: 25vh;
+    background-color: #0d0720;
+    box-shadow: 0px 0px 8px #261e42;
+    padding: 2vh
+}
+
+#icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:4vh;
+}
+
+.grid-item{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
