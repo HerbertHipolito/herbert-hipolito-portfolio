@@ -7,7 +7,7 @@ export default function section3(){
 
         <p id="section3-title">Meus Projetos</p>
         
-        <div id='section3-data-back-end'>    
+        <div className='section3-data-back-end'>    
             <div id="section3-buttons">
                 <button>Back-end</button>
             </div>
@@ -15,7 +15,7 @@ export default function section3(){
                 <div className='project-class-back'>
                     <p className='project-title'>Flash-cards</p>
                     <p className='project-text'>Aplicação que auxilia o usuário no seu aprendizado de inglês por meio de Flash-cards.
-                        O usuário pode cadastrar palavras por meio de link de youtube 
+                        O usuário pode cadastrar palavras por meio de link de youtube e selecionar as desejadas para poder revê-las.
                     </p>
                     <a href='https://github.com/HerbertHipolito/Flash-card-application'>Link do Gihub desse projeto</a>
                 </div>    
@@ -34,7 +34,7 @@ export default function section3(){
             </div>
         </div>
 
-        <div id='section3-data-back-end'>    
+        <div className='section3-data-back-end'>    
             <div id="section3-buttons">
                 <button>Ciência de dados</button>
             </div>

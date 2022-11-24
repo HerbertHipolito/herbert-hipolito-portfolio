@@ -19,17 +19,17 @@
 
 #welcome{
     color:var(--font-color);
-    font-size: 225%;
+    font-size: 2em;
 }
 
 #my-name-p{
-    font-size: 390%;
+    font-size: 3.5em;
     color:var(--font-color);
 }
 
 #role{
     color:var(--font-color);
-    font-size: 170%;
+    font-size: 1.7em;
 }
 
 #btn-div{

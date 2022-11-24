@@ -4,11 +4,11 @@
 }
 
 #section3-title{
-    font-size: 280%;
+    font-size: 8vmin;
     color:var(--font-color);
     text-align: center;
-    text-shadow: 0px 0px 5px var(--font-color);
-    margin: 10vh;
+    text-shadow: 0px 0px 4px var(--font-color);
+    margin: 20vh 0;
 }
 
 #section3-buttons{
@@ -18,7 +18,7 @@
 
 #section3-buttons button{
     padding: 2vh;
-    font-size: 120%;
+    font-size: 1.2em;
     color: var(--font-color);
     background-color: #0d0720;
     border: none;
@@ -28,31 +28,31 @@
     width: 15vw;
 }
 
-#section3-data-back-end{
+.section3-data-back-end{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:space-between;
-    margin:5vh 5vw;
-    margin-right: 2vw;
+    justify-content:space-around;
+    margin:5vh 4vw;
+    margin-right: 3vw;
 }
 
 #my-projects-back{
     color: var(--font-color);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
 }
 
 .project-class-back{
     padding: 2vh;
     margin: 1vh;
-    max-width: 20vw;
-    animation-duration: 1.5s;
-    animation-timing-function: ease;
+    max-width: 21vw;
     background-color: #0d0720;
     display: flex;
     flex-direction: column;
+    box-shadow: 0px 0px 2px var(--font-color);
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
 }
 
 .project-class-back:hover{
@@ -60,7 +60,7 @@
 }
 
 .project-text{
-    font-size: 90%;
+    font-size: 0.9em;
 }
 
 .project-class-back a{
@@ -69,11 +69,11 @@
 }
 
 .project-title{
-    font-size: 180%;
+    font-size: 1.4em;
     margin:2vh 0;
 }
 
 .project-title-cc{
-    font-size: 120%;
+    font-size: 1.2em;
     margin:1vh 0;
 }
