@@ -10,7 +10,6 @@ import Footer from './components/footer/footer';
 function App() {
   return (
     <>
-      
       <div className="App">
       <Header/>
       <Section1/>
@@ -30,8 +29,9 @@ export default App;
 /*
 to-do list:
 
-How to make the download buttons work (file is not possible to download)?
-Make the buttons in the header work.
-Fix the 'text' tag in the section 3.
+resize the background image.
+fix the toggle button.
+make the section3 responsive.
+make the section4 title responsive.
 
 */

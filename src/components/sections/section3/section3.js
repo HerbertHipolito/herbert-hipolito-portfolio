@@ -9,7 +9,7 @@ export default function section3(){
         
         <div className='section3-data-back-end'>    
             <div id="section3-buttons">
-                <button>Back-end</button>
+                <button type="text" id='back-end-button'> Back-end </button>
             </div>
             <div id="my-projects-back">
                 <div className='project-class-back'>
@@ -36,7 +36,7 @@ export default function section3(){
 
         <div className='section3-data-back-end'>    
             <div id="section3-buttons">
-                <button>Ciência de dados</button>
+                <button>C. de dados</button>
             </div>
             <div id="my-projects-back">
                 <div className='project-class-back'>
