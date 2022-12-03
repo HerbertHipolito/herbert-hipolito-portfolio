@@ -1,5 +1,4 @@
 #section3{
-    margin-top: 10vh;
     min-height: 90vh;
 }
 
@@ -7,7 +6,7 @@
     font-size: 8vmin;
     color:var(--font-color);
     text-align: center;
-    margin: 20vh 0;
+    margin-bottom: 15vh;
 }
 
 #section3-buttons{
@@ -77,8 +76,25 @@
         flex-direction: column;
     }
     .project-class-back{
-        max-width: 61vw;
-        margin: 5vh 0;
+        max-width: 77vw;
+        margin: 3vh 0;
+    }
+
+    #section3-title{
+        margin-bottom: 5vh;
+    }
+
+}
+
+@media(max-width:500px){
+    #section3-title{
+        margin: 3vh 0;
+    }
+    #section3-buttons button{
+        margin:4vh 0;
+    }
+    .section3-data-back-end{
+        margin: 0 1vh;
     }
 }
 

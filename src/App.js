@@ -29,9 +29,5 @@ export default App;
 /*
 to-do list:
 
-resize the background image.
-fix the toggle button.
-make the section3 responsive.
-make the section4 title responsive.
 
 */

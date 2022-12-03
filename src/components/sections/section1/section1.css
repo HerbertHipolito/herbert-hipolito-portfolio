@@ -19,24 +19,24 @@
 
 #welcome{
     color:var(--font-color);
-    font-size: 2em;
+    font-size: 3.8vmin;
 }
 
 #my-name-p{
-    font-size: 3.5em;
+    font-size: 8vmin;
     color:var(--font-color);
 }
 
 #role{
     color:var(--font-color);
-    font-size: 1.7em;
+    font-size: 2.8vmin;
 }
 
 #btn-div{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 8vw;
+    padding: 2vh 8vw;
 }
 
 #btn-div a{

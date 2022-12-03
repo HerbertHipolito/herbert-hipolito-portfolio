@@ -5,7 +5,9 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 4vw;
+    
 }
+
 
 #header{
     padding: 1.1vh 0;
@@ -85,6 +87,8 @@
     }
     #header-right-side.active{
         display: flex;
+        background-color: var(--bg-color);
+        width: 100%;
     }
 
     #header,#header-right-side{

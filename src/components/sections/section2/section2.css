@@ -13,7 +13,7 @@
 }
 
 #section2-main-text{
-    font-size: 2.7vmin;
+    font-size: 3vmin;
     margin: 0 5vw;
     background-color: #0d0720;
     padding:3vh 5vw;
@@ -25,7 +25,6 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
-    padding: 3vh;
 }
 
 #section2 div button{
@@ -50,5 +49,18 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 15vh 0;
+    margin: 10vh 0;
+}
+
+
+@media(max-width:500px){
+    #buttons-div{
+        margin:5vh 0
+    }
+    #section2-title{
+        margin: 7vh 0;
+    }
+    #section2{
+        min-height: 70vh;
+    }
 }
