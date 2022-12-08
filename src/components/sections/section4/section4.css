@@ -52,8 +52,8 @@
     }
 
     #icons img{
-        max-width: 22vw;
-        max-height: 35vh;
+        max-width: 35vw;
+        max-height: 40vh;
         background-color: #0d0720;
         box-shadow: 0px 0px 8px #261e42;
         padding: 2vh
@@ -79,7 +79,7 @@
     }
 
     #icons img{
-        max-width: 32vw;
+        max-width: 45vw;
         max-height: 45vh;
     }
     

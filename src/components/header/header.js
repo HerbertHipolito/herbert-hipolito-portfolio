@@ -5,9 +5,8 @@ function toggleButton(){
     //const togButton = document.getElementsByClassName('toggle-button')[0]
     const navbarLinks = document.getElementById('header-right-side')
     navbarLinks.classList.toggle('active');
-    
-
 }
+
 
 function Header(){
     return (
@@ -20,8 +19,9 @@ function Header(){
             </button>
             <div id = "header-right-side">
                 <p><a href="#section2"> Sobre mim</a></p>
-                <p ><a href="#section3">Projetos</a></p>
-                <p ><a href="#section4">conhecimentos</a></p>
+                <p><a href="#section3">Projetos</a></p>
+                <p><a href="#section4">conhecimentos</a></p>
+                <button onClick={toggleButton} href="#" className='close-button'>X</button>
             </div>
         </div>
     )
