@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/herbert-hipolito-portfolio/static/css/main.2714ab4a.css",
-    "main.js": "/herbert-hipolito-portfolio/static/js/main.9b64a77b.js",
-    "static/js/787.2e5ff691.chunk.js": "/herbert-hipolito-portfolio/static/js/787.2e5ff691.chunk.js",
+    "main.js": "/herbert-hipolito-portfolio/static/js/main.fa43effc.js",
+    "static/js/787.177bf2d8.chunk.js": "/herbert-hipolito-portfolio/static/js/787.177bf2d8.chunk.js",
     "static/media/img3.jpg": "/herbert-hipolito-portfolio/static/media/img3.79a3c1eddf8789f12d8c.jpg",
     "index.html": "/herbert-hipolito-portfolio/index.html",
     "main.2714ab4a.css.map": "/herbert-hipolito-portfolio/static/css/main.2714ab4a.css.map",
-    "main.9b64a77b.js.map": "/herbert-hipolito-portfolio/static/js/main.9b64a77b.js.map",
-    "787.2e5ff691.chunk.js.map": "/herbert-hipolito-portfolio/static/js/787.2e5ff691.chunk.js.map"
+    "main.fa43effc.js.map": "/herbert-hipolito-portfolio/static/js/main.fa43effc.js.map",
+    "787.177bf2d8.chunk.js.map": "/herbert-hipolito-portfolio/static/js/787.177bf2d8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2714ab4a.css",
-    "static/js/main.9b64a77b.js"
+    "static/js/main.fa43effc.js"
   ]
 }
