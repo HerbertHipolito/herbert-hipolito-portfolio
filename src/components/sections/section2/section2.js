@@ -13,7 +13,7 @@ export default function Section2(){
             Gosto de desafios e de resolver problemas, tanto da área da matemática quanto de programação, procurando sempre a solução mais viável.<br/>
             &nbsp;&nbsp;&nbsp; Atualmente estou cursando Matemática Industrial na Universidade Federal do Ceará (UFC), tenho uma base bem forte em matemática, estatística e
             computação, o que me fez estudar sobre a área de Ciência de dados e Machine Learning, inclusive sendo tema para o meu TCC. Também 
-            tenho uma afinidade para área de desenvolvimento web, mais especificamente Back-end com Node.js e MongoDB. Alguns dos projetos que desenvolvi 
+            tenho uma grande afinidade para área de desenvolvimento web( FULL-STACK), mais especificamente com Node.js e MongoDB no BACK-END e ReactJS e CSS no FRONT-END. Alguns dos projetos que desenvolvi 
             de ambas áreas estão disponíveis no meu Github!
             </p>
             <div id="buttons-div">
