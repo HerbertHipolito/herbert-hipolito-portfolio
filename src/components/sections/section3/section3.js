@@ -17,7 +17,7 @@ export default function section3(){
                     <p className='project-text'>Aplicação que auxilia o usuário no seu aprendizado de inglês por meio de Flash-cards.
                         O usuário pode cadastrar palavras por meio de link de youtube e selecionar as desejadas para poder revê-las.
                     </p>
-                    <a href='https://github.com/HerbertHipolito/Flash-card-application'>Link do Gihub desse projeto</a>
+                    <a href='https://github.com/HerbertHipolito/flash-card-MERN'>Link do Gihub desse projeto</a>
                 </div>    
                 <div className='project-class-back'>
                     <p className='project-title'>Blog</p>

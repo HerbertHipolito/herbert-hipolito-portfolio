@@ -7,7 +7,8 @@ import Section4 from './components/sections/section4/section4';
 import Footer from './components/footer/footer';
 
 
-function App() {
+
+export default function App() {
   return (
     <>
       <div className="App">
@@ -22,12 +23,5 @@ function App() {
   );
 }
 
-export default App;
 //https://html-color-codes.info/colors-from-image/
 //https://kevintavares.com.br/#knowledge
-
-/*
-to-do list:
-
-
-*/
