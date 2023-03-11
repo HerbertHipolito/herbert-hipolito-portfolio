@@ -17,7 +17,7 @@ export default function Section2(){
             Alguns dos projetos que desenvolvi de ambas áreas estão disponíveis no meu Github!
             </p>
             <div id="buttons-div">
-                <a href="pdfs\Herbert-Hípolito-Back-End.pdf" download="Herbert currículo Full-Stack"><button>Currículo - FULL-Stack</button></a>
+                <a href="pdfs\Herbert-Hípolito-Back-End.pdf" download="Herbert currículo Full-Stack"><button>Currículo - Full-Stack</button></a>
                 <a href="pdfs\Herbert-Hípolito-Ciencia-de-Dados.pdf" download="Herbert currículo CD"><button >Currículo - Ciência de dados</button></a>
             </div>
         </div>
