@@ -16,10 +16,6 @@ export default function Section2(){
             tenho uma grande afinidade para área de desenvolvimento web (FULL-STACK), mais especificamente com Node.js e MongoDB no BACK-END e ReactJS e CSS no FRONT-END.
             Alguns dos projetos que desenvolvi de ambas áreas estão disponíveis no meu Github!
             </p>
-            <div id="buttons-div">
-                <a href="pdfs\Herbert-Hípolito-Back-End.pdf" download="Herbert currículo Full-Stack"><button>Currículo - Full-Stack</button></a>
-                <a href="pdfs\Herbert-Hípolito-Ciencia-de-Dados.pdf" download="Herbert currículo CD"><button >Currículo - Ciência de dados</button></a>
-            </div>
         </div>
     </section>
 }
