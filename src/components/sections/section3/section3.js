@@ -40,7 +40,7 @@ export default function section3(){
 
         <div className='section3-data-back-end'>
             <div id="section3-buttons">
-                <button>C. de dados</button>
+                <button>M. Learning</button>
             </div>
             <div id="my-projects-back">
 
@@ -73,6 +73,33 @@ export default function section3(){
                 </div>
 
             </div>
+            
+        </div>
+
+        <div className='section3-data-back-end'>
+            <div id="section3-buttons">
+                <button>Mobile</button>
+            </div>
+            <div id="my-projects-back">
+
+                <div className='project-class-back'>
+                    <p className='project-title-cc'>Flash card</p>
+                    <p className='project-text'>Aplicativo desenvolvido enquanto eu estava estudando para o concurso do Banco do Brasil.
+                     O aplicativo utiliza a ideia de flashcards, ou seja, uma carta será mostrada aleatoriamente de um deck e o usuário terá a opção de ver a resposta, caso não lembre.
+                    </p>
+                    <a href='https://github.com/HerbertHipolito/flashcard-bb'>Link do Github</a>
+                </div>
+
+                <div className='project-class-back'>
+                    <p className='project-title-cc'>Informações sobre deputados</p>
+                    <p className='project-text'>App feito para facilitar a visualização de informações sobre os nossos deputados por meio de uma API pública disponibilizada pela Câmera dos Deputados.
+                    </p>
+                    <a href='https://github.com/HerbertHipolito/deputados-despesas'>Link do Github</a>
+                </div>
+
+
+            </div>
+            
         </div>
 
     </section>
