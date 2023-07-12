@@ -1,40 +1,59 @@
-import React from "react";
+import React,{useState} from "react";
 import './section4.css';
+import "../../../../node_modules/video-react/dist/video-react.css";
+import { Player } from 'video-react';
 
 export default function Section4(){
 
-    return <section id='section4'>
+    const [videoNumber, setVideoNumber] = useState(true);
 
-        <h1>Principais ferramentas</h1>
+    const adjustWidth = () =>{
 
-        <div id="icons">
-            <div className="grid-item">
-            <img alt="pythonIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
+        const width = window.innerWidth
+        let videoWidth = 0
+
+        if(width>=1100){
+            videoWidth = width/3 
+        }
+        else if(width >= 800){
+            videoWidth = width/2.5
+        }else{
+            videoWidth = width/1.4
+        }
+
+        return videoWidth
+
+    }
+
+    return <section id="section4">
+
+        <h1>Meus projetos mobile</h1>
+        <link rel="stylesheet" href="/css/video-react.css" />
+
+        <div>
+            <div id="section4-button-div">
+                <button onClick={e => setVideoNumber(true)}>Projeto 1</button>
+                <button onClick={e => setVideoNumber(false)}>Projeto 2</button>
             </div>
-            <div className="grid-item">
-            <img alt="javascriptIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+            <div id="section4-video">
+                {videoNumber?
+                <Player
+                    playsInline
+                    fluid={false}
+                    width={adjustWidth()}
+                    height={window.innerHeight*0.7}
+                    src="https://github.com/HerbertHipolito/flashcard-bb/assets/94997683/d8395c19-7b7c-49bf-9516-1161df331aef"
+
+                />:
+                <Player
+                    fluid={false}
+                    width={adjustWidth()}
+                    height={window.innerHeight*0.7}
+                    playsInline
+                    src="https://user-images.githubusercontent.com/94997683/227032316-bc44a21e-56ad-4a55-afff-d20101db1548.mp4"
+                />}
             </div>
-            <div className="grid-item">
-            <img alt="nodejsIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
-            </div>
-            <div className="grid-item">
-            <img alt="mongodbIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" />
-            </div>
-            <div className="grid-item">
-            <img alt="reactIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
-            </div>
-            <div className="grid-item">
-            <img alt="cssIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
-            </div>
-            <div className="grid-item">
-            <img alt="htmlIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />        
-            </div>
-            <div className="grid-item">
-            <img alt="tensorIcon"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg" />
-            </div>
-          
         </div>
-                
-        </section>
+    </section>
 
 }
