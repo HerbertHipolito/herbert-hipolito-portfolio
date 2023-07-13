@@ -42,3 +42,15 @@
     border: solid 1px var(--font-color);
     box-shadow: 0px 3px 3px 3px #00828F;
 }
+
+@media(max-width:900px){
+
+#section4{
+    min-height: 90vh;
+}
+
+#section4-button-div button {
+    padding: 1vh 0;
+    font-size: 4vmin;
+}
+}
