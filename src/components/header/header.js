@@ -20,7 +20,7 @@ function Header(){
             <div id = "header-right-side">
                 <p><a href="#section2"> Sobre mim</a></p>
                 <p><a href="#section3">Projetos</a></p>
-                <p><a href="#section4">conhecimentos</a></p>
+                <p><a href="#section5">conhecimentos</a></p>
                 <button onClick={toggleButton} href="#" className='close-button'>X</button>
             </div>
         </div>
