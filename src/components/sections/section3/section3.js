@@ -45,6 +45,11 @@ export default function section3(){
             <div id="my-projects-back">
 
                 <div className='project-class-back'>
+                    <p className='project-title-cc'>Geração de imagens usando GANs</p>
+                    <p className='project-text'>Uso de redes neurais adversariais para geração de images de numeros utilizando o dataset MINST</p>
+                    <a href='https://github.com/HerbertHipolito/generative-adversarial-neural-network'>Link do Github</a>
+                </div>
+                <div className='project-class-back'>
                     <p className='project-title-cc'>Classificação de nodulos Benignos e malignos</p>
                     <p className='project-text'>Construção e uso de Rede Neurais Convulasionais para a classificação de nódulos benignos e malígnos com base em
                     imagens de tumografias de pulmão.
