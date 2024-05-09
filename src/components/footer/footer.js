@@ -5,7 +5,7 @@ export default function Footer(){
 
     return <section id="footer">
 
-        <p>Desenvolvido por Herbert Hipólito utilizando React e CSS</p>
+        <p>Desenvolvido por Herbert Hipólito</p>
 
     </section>
 
